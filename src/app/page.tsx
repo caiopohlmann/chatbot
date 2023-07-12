@@ -25,7 +25,7 @@ export default function Home() {
 
          <div className="flex gap-3 text-slate-600 text-sm">
          <Avatar>
-            <AvatarFallback>RS</AvatarFallback>
+            <AvatarFallback>CP</AvatarFallback>
             <AvatarImage src="https://github.com/openai.png"/>
           </Avatar>
           <p className="leading-relaxed"> 
