@@ -23,10 +23,10 @@ export function Chat() {
                     <CardDescription>Using Vercel SDK to create a ChatBot.</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <ScrollArea className="h-[640px] w-full space-y-4">
+                    <ScrollArea className="h-[640px] w-full pr-4">
                         {messages.map(message => {
                             return (
-                                <div key={message.id} className="flex gap-3 text-slate-600 text-sm">
+                                <div key={message.id} className="flex gap-3 text-slate-600 text-sm mb-4">
                                     {message.role === 'user' && (
                                         <Avatar>
                                             <AvatarFallback>CP</AvatarFallback>
